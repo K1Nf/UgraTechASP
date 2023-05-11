@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\UgraTech.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UgraTech.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\css\\labs.css",
+      "PackagePath": "staticwebassets\\css\\labs.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\css\\projects.css",
+      "PackagePath": "staticwebassets\\css\\projects.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\10.png",
+      "PackagePath": "staticwebassets\\images\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\7.png",
+      "PackagePath": "staticwebassets\\images\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\9.png",
+      "PackagePath": "staticwebassets\\images\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\back_con2.jpg",
+      "PackagePath": "staticwebassets\\images\\back_con2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\back_menu6.jpg",
+      "PackagePath": "staticwebassets\\images\\back_menu6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\favicon_2.ico",
+      "PackagePath": "staticwebassets\\images\\favicon_2.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-glavnaya-30.png",
+      "PackagePath": "staticwebassets\\images\\icons8-glavnaya-30.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-группа-проектов-30.png",
+      "PackagePath": "staticwebassets\\images\\icons8-группа-проектов-30.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-группа-проектов-50.png",
+      "PackagePath": "staticwebassets\\images\\icons8-группа-проектов-50.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-меню-35.png",
+      "PackagePath": "staticwebassets\\images\\icons8-меню-35.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-меню.svg",
+      "PackagePath": "staticwebassets\\images\\icons8-меню.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-микроскоп-30.png",
+      "PackagePath": "staticwebassets\\images\\icons8-микроскоп-30.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-микроскоп-40.png",
+      "PackagePath": "staticwebassets\\images\\icons8-микроскоп-40.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-микроскоп-50.png",
+      "PackagePath": "staticwebassets\\images\\icons8-микроскоп-50.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-чат-30.png",
+      "PackagePath": "staticwebassets\\images\\icons8-чат-30.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\icons8-чат-50.png",
+      "PackagePath": "staticwebassets\\images\\icons8-чат-50.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\l2.jpg",
+      "PackagePath": "staticwebassets\\images\\l2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\l3.jpg",
+      "PackagePath": "staticwebassets\\images\\l3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\._IMG_9635.HEIC",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\._IMG_9635.HEIC"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\._aui2wn33dj2gi8r1pj1fe63doop84krs.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\._aui2wn33dj2gi8r1pj1fe63doop84krs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\._camphoto_959030623 2.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\._camphoto_959030623 2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\._camphoto_959030623 3.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\._camphoto_959030623 3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\IMG_9635.HEIC",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\IMG_9635.HEIC"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\IMG_9635.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\IMG_9635.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\IMG_9635.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\IMG_9635.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\aui2wn33dj2gi8r1pj1fe63doop84krs.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\aui2wn33dj2gi8r1pj1fe63doop84krs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\camphoto_959030623 2.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\camphoto_959030623 2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_1\\camphoto_959030623 3.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_1\\camphoto_959030623 3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\._11.png",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\._11.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\._4d931878-b59c-433f-b7d6-0f1981137491.PNG",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\._4d931878-b59c-433f-b7d6-0f1981137491.PNG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\._IMG_20210911_203950_439.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\._IMG_20210911_203950_439.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\._IMG_20210914_171931_555.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\._IMG_20210914_171931_555.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\._IMG_20210914_172305_301.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\._IMG_20210914_172305_301.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\11.png",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\4d931878-b59c-433f-b7d6-0f1981137491.PNG",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\4d931878-b59c-433f-b7d6-0f1981137491.PNG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\IMG_20210911_203950_439.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\IMG_20210911_203950_439.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\IMG_20210914_171931_555.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\IMG_20210914_171931_555.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_1\\pr_2\\IMG_20210914_172305_301.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_1\\pr_2\\IMG_20210914_172305_301.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\photo1.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\photo1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\photo2.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\photo2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\photo3.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\photo3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\photo4.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\photo4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_360\\Слой 2 копия.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_360\\Слой 2 копия.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_360\\Снимок.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_360\\Снимок.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_360\\Снимок2.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_360\\Снимок2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_360\\Снимок3.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_360\\Снимок3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_360\\Снимок4.JPG",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_360\\Снимок4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1680775402 (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1680775402 (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1680775402 (3).jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1680775402 (3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1680775402 (4).jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1680775402 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1680775402 (5).jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1680775402 (5).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1680775402 (6).jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1680775402 (6).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo1680775402 (8).jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo1680775402 (8).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo2.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo3.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_2\\pr_Мухрино\\photo4.jpeg",
+      "PackagePath": "staticwebassets\\images\\lab_2\\pr_Мухрино\\photo4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_3\\789.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_3\\789.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_3\\ugrasunews.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_3\\ugrasunews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\lab_3\\ugrasusite.jpg",
+      "PackagePath": "staticwebassets\\images\\lab_3\\ugrasusite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\mob_fon.png",
+      "PackagePath": "staticwebassets\\images\\mob_fon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_248.png",
+      "PackagePath": "staticwebassets\\images\\v13_248.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_255.png",
+      "PackagePath": "staticwebassets\\images\\v13_255.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_258.png",
+      "PackagePath": "staticwebassets\\images\\v13_258.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_259.png",
+      "PackagePath": "staticwebassets\\images\\v13_259.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_267.png",
+      "PackagePath": "staticwebassets\\images\\v13_267.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_268.png",
+      "PackagePath": "staticwebassets\\images\\v13_268.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_31.png",
+      "PackagePath": "staticwebassets\\images\\v13_31.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_36.png",
+      "PackagePath": "staticwebassets\\images\\v13_36.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v13_59.png",
+      "PackagePath": "staticwebassets\\images\\v13_59.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\images\\v748-toon-111.jpg",
+      "PackagePath": "staticwebassets\\images\\v748-toon-111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\UgraTech\\UgraTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UgraTech.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.UgraTech.props",
+      "PackagePath": "build\\UgraTech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.UgraTech.props",
+      "PackagePath": "buildMultiTargeting\\UgraTech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.UgraTech.props",
+      "PackagePath": "buildTransitive\\UgraTech.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/projects.css" rel="stylesheet" />
+	<title>Проект 1</title>
+</head>
+<body>
+	<div class="wrapper">
+      <svg visibility="hidden" onclick="move('header')"  id = "menu" class="arrow-top-2" viewBox="0 0 9 14">
+      	<path id = "up"  class="svg-arrow" d="M6.660,8.922 L6.660,8.922 L2.350,13.408 L0.503,11.486 L4.813,7.000 L0.503,2.515 L2.350,0.592 L8.507,7.000 L6.660,8.922 Z" />
+      </svg>
+		<header id="header">
+         <img src="images/v13_267.png" alt="" id="logo" onclick="window.location.href = 'index.html';" style="cursor: pointer;">
+         <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
+         <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button>
+         <div id="mobile_menu">
+            <ul id="menu">
+               <div class = "nav_link">
+                  <h1> +7(904)3278040 <span class="flare"> </span></h1>
+                  <p> Россия, г. Ханты-Мансийск, ул. Чехова, 16 <span class="flare"> </span></p>
+                  <p> Dolingersy@ya.ru <span class="flare"> </span></p>
+               </div>
+               <div class = "nav_menu">
+                  <!-- href="#" -->
+                  <a id="lab"  class = "menu_btn" href="index.html"> <img src="images/icons8-микроскоп-50.png" alt=""> <li>Главная <span class="flare">  </li></a>
+                  <a id="proj"  class = "menu_btn" onclick="move('services')"> <img src="images/icons8-группа-проектов-50.png"alt=""><li>Услуги<span class="flare"> </li></a>
+                  <a id="link" onclick="open_contacs()" class = "menu_btn" > <img src="images/icons8-чат-50.png"alt=""><li>Связь с нами <span class="flare"> </li></a>
+               </div>
+               <div class = "nav_footer">
+                  <border> <span class="flare"></span> </border>
+                  <img src="images/v13_268.png" alt=""> <img src="images/v13_267.png" alt="" id="mob_logo">
+               </div>
+            </ul>
+         </div>
+
+            <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
+            <script>
+               function change_mobile_menu(){
+                     $.fancybox.open({
+                     padding: [0, 0, 0, 0],
+                     src: '#mobile_menu',
+                     type: 'inline',
+                     closeClickOutside: false,
+                     opts: {
+                        afterClose: function() {
+                           //обработчик закрытия окна
+                        }
+                     }
+                     });
+                  }
+               </script>
+            <!---------------------------------------------------------------------->
+      </header>
+		<div id="main" >
+			<h1>Проект Инжинирингового Центра ЮГУ<br> "Устройство определения поврежденной линии в сетях<br> с изолированной и компенсированной нейтралью"</h1>
+         <div class="testimonials">
+            <div class="scroller">
+               <div class="item">
+                  <img src="images/lab_2/photo2.jpeg" alt="Elise" class="imgs">
+               </div>
+               <div class="item">
+                     <img src="images/lab_2/photo1.jpeg" alt="John" class="imgs">
+               </div>
+               <div class="item">
+                   <img src="images/lab_2/photo3.jpeg" alt="Imani" class="imgs">
+               </div>
+            </div>
+            <span class="btn prev">&lt;</span>
+            <span class="btn next">&gt;</span>
+         </div>
+         <h1>Описание проекта:</h1>
+         <p>
+         	Команда инжинирингового центра ведет разработку программно-аппаратного комплекса для определения поврежденной линии в сетях с изолированной или с компенсированной нейтралью без необходимости отключения. Комплекс работает на основе дискретного вейвлет-преобразования. В настоящее время проводятся стендовые испытания в условиях
+приближенных к реальным.
+Программно-аппаратный комплекс определения поврежденной линии в сетях с изолированной или с компенсированной нейтралью разрабатывается для работы на современных цифровых подстанциях в соответствии с МЭК 61850.  Принимает и анализирует SV-потоки, отслеживает и формирует GOOSE-сообщения
+         </p>
+		</div>
+      <footer>
+         <img src="images/v13_268.png" alt="" id="f_logo">
+			<ul id="footer_ul">
+				<li id="footer_li">
+					<p id=""class="footer_btn">Адрес: г. Ханты-Мансийск,<br> ул. Чехова 16</p>
+				</li>
+				<li>
+					<p id="" class="footer_btn">Почта: Dolingersy@ya.ru</p>
+				</li>
+				<li >
+					<p id="" id="footer_btn">Телефон: +7(904)3278040</p>
+				</li>
+			</ul>
+      </footer>
+	</div>
+
+      <!-- модальное окно -->
+      <!-- модальное окно -->
+   <div id="contacs" style="display: none;">
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+<p>Связаться с нами</p>
+<form name="Form">
+   <input type="email" placeholder="Ваша почта" name="email" required>
+   <input type="tel" placeholder="Ваш номер" name="phone" required>
+   <textarea
+      type="text" class = "com" placeholder="Цель обращения" name="comment" required>
+   </textarea>
+   <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить">
+</form>
+
+   </body>
+<script>
+	const testimonials = document.querySelector('.testimonials');
+   const scroller = testimonials.querySelector('.scroller');
+   const nextBtn = testimonials.querySelector('.btn.next');
+   const prevBtn = testimonials.querySelector('.btn.prev');
+   const itemWidth = testimonials.querySelector('.item').clientWidth;
+
+   nextBtn.addEventListener('click', scrollToNextItem);
+   prevBtn.addEventListener('click', scrollToPrevItem);
+
+   function scrollToNextItem() {
+       if(scroller.scrollLeft < (scroller.scrollWidth - itemWidth))
+           // The scroll position is not at the beginning of last item
+           scroller.scrollBy({left: itemWidth, top: 0, behavior:'smooth'});
+       else
+           // Last item reached. Go back to first item by setting scroll position to 0
+           scroller.scrollTo({left: 0, top: 0, behavior:'smooth'});
+   }
+   function scrollToPrevItem() {
+       if(scroller.scrollLeft != 0)
+           // The scroll position is not at the beginning of first item
+           scroller.scrollBy({left: -itemWidth, top: 0, behavior:'smooth'});
+       else
+           // This is the first item. Go to last item by setting scroll position to scroller width
+           scroller.scrollTo({left: scroller.scrollWidth, top: 0, behavior:'smooth'});
+   }
+</script>
+</html>

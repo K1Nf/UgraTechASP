@@ -1,0 +1,803 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/v748-toon-111.jpg");
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* НАВИГАЦИЯ СТИЛИ ТЕКСТА */
+
+#mobile_menu_btn{
+  display: none;
+}
+.nav_footer{
+  display: none;
+}
+.nav_link{
+  display: none;
+}
+.nav_menu{
+  display:block;
+}
+
+.menu_btn{
+  display: inline;
+  text-decoration: none;
+  color:aliceblue;
+  text-transform: uppercase;
+  font-family: 'Commissioner', sans-serif;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.menu_btn:hover {
+  color: rgba(254,228,195,1);/*color: #e3f78d;*/
+  font-size: 1.2vw;
+  transition: color 0.3s linear;
+}
+
+.nav_menu img{
+  display: none;
+}
+
+/* ------------------------------------------- */
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#in{
+  display: none;
+}
+header {
+  width: 100%;
+	box-shadow: -2px 0 15px rgba(0, 0, 0, .7);;
+  z-index: 100;
+  background-color: rgba(51, 59, 70, 1);
+  text-align: center;
+}
+header li{
+  text-transform: uppercase;
+}
+
+header h1{
+  font-size: 1.5vw;
+}
+
+#logo {
+  width: 20%;
+  display: inline;
+  float: left;
+  margin-left: 3vw;
+  padding: 1vw;
+}
+
+ul {
+  display: inline-block;
+  width: 60vw;
+  margin-top: 3vh;
+  padding: 1.5vw;
+  overflow: hidden;
+  list-style-type: none;
+}
+#footer_ul{
+  margin-top: 1vh;
+  width: 72vw;
+}
+li {
+  width: 20vw;
+  float: left;
+  padding: 0;
+  /* border-right: 1px solid #bbb; */
+}
+#footer_li{
+  width: 24vw;
+}
+li button {
+  display: inline;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(51, 59, 70, 1);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 1vw;
+  border: none;
+}
+
+.grad_img {
+  opacity: 0.6;
+}
+
+/* СТРЕЛОЧКА НА СКРОЛЛ */
+.arrow-top-2 {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 90%;
+  right: -2%;
+  width: 8vw;
+  height: 4vw;
+  z-index: 1000;
+}
+
+.arrow-top-2 path {
+  fill: rgb(54, 53, 43);
+  stroke: #737c5c;
+  transition: fill 0.5s ease-out;
+  cursor: pointer;
+}
+
+.arrow-top-2 {
+  transform: rotate(270deg);
+}
+
+.arrow-top-2 path:hover {
+  fill: #e3f78d;
+}
+
+/*--------------------------------*/
+
+.line {
+  margin-top: 2vh;
+  position: relative;
+  width: 100%;
+  height: 9vh;
+  background-color: rgba(51, 59, 70, 1);
+}
+
+footer {
+  margin-top: 2vh;
+  background-color: rgba(51, 59, 70, 1);
+  font-family: 'Commissioner', sans-serif !important;
+}
+
+#f_logo {
+  display: inline;
+  float: left;
+  width: 15vw;
+  height: 10vh;
+  margin-left: 5vw;
+  padding: 1vw;
+}
+
+li p {
+  display: inline;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(51, 59, 70, 1); */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5vw;
+  /* padding: 1vw; */
+  border: none;
+}
+
+#contacs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 40%;
+  /* background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
+  animation: Gradient 15s ease infinite; */
+  background-image: url("../images/back_con2.jpg");
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'Commissioner', sans-serif;
+}
+
+#contacs p{
+  margin-top: 5%;
+  padding-left: 16%;
+  font-size: 3vw;
+  color: rgba(254,228,195,1);
+}
+
+#contacs input,
+textarea{
+  margin: 2%;
+  margin-left: -10%;
+  width: 90%;
+  height: 20%;
+}
+
+#contacs form{
+  height: 40%;
+  padding-left: 25%;
+}
+
+form .com{
+  height: 60%!important;
+}
+
+.cube {
+  position: absolute;
+  top: 8vh;
+  left: 4vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #50504f;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #FFF ;
+}
+.cube:nth-child(2) {
+  animation-delay: 2s;
+  left: 50vw;
+  top: 15vh;
+}
+.cube:nth-child(3) {
+  animation-delay: 4s;
+  left: 30vw;
+  top: 70vh;
+}
+.cube:nth-child(4) {
+  animation-delay: 5s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  animation-delay: 6s;
+  left: 17vw;
+  top: 28vh;
+}
+.cube:nth-child(6) {
+  animation-delay: 7s;
+  left: 5vw;
+  top: 50vh;
+}
+
+.send {
+  width: 20%;
+  cursor: pointer;
+  background: transparent;
+  border: 4px solid #fee4c3;
+  outline: none;
+  transition: 1s ease-in-out;
+  color:#fee4c3;
+  font-size: 1.5vw;
+}
+
+.send:hover {
+  transition: 1s ease-in-out;
+  color:#FFF;
+  border: solid #ffffff;
+}
+
+.send:hover input {
+  stroke-dashoffset: -480;
+}
+
+
+
+
+
+
+
+
+#main{
+  display: inline;
+  /* position  : relative; */
+  margin-top: 2vh;
+  background-color: rgba(51,59,70,1);
+  height: auto !important;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 85vh;
+  border-radius: 2vw;
+  padding-bottom: 5%;
+}
+#main h1{
+  width: 100%;
+  text-align: center;
+  font-size: 2.15vw;
+  color: rgba(255,255,255,1);
+  font-family: 'Commissioner', sans-serif;
+}
+
+#main p{
+  margin: 0;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 90%;
+  line-height: 2.3vw;
+  font-size: 2vw;
+  color: rgba(254,228,195,1);
+  text-align: center;
+}
+
+/* Листающаяся галлерея фотографий */
+
+.testimonials{
+  height: 30vw;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+.scroller{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  height: 100%;
+}
+.item{
+  scroll-snap-align: center;
+  padding: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.item img{
+  width: 47.75vw;
+  left:5%;
+  height: 100%;
+  border: solid 4px #ffffff;
+  z-index: 2;
+  border: 1px solid black;
+}
+.testimonials .btn{
+  position: absolute;
+  top: 50%;
+  margin-top: 20px;
+  height: 5%;
+  width: 5%;
+  border-radius: 15px;
+  background-color: rgba(95, 106, 117, 0.3);
+  z-index: 1;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.testimonials .btn:hover{
+  background-color: rgba(95, 106, 117, 0.5);
+  cursor: pointer;
+}
+.testimonials .btn.next{
+  right: 15px;
+}
+.testimonials .btn.prev{
+  left: 15px;
+}
+
+/* Листающаяся галлерея фотографий */
+
+
+
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 480px){
+  header{
+    /* position: fixed;   */
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color:rgba(51,59,70,1);
+    text-align: center;
+    color: #000;
+    height: 8vh;
+  }
+  #logo{
+    width: 35%;
+    height: 60%;
+    display: inline;
+    padding-left: 2vw;
+    padding-top: 4%;
+  }
+  ul{
+    width: 50vw;
+    margin: 0;
+    margin-top: 2vh;
+    padding: 1vw;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  li{
+    width: 20vw;
+    float: left;
+    padding: 0;
+  }
+  li button{
+    display: inline;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(51,59,70,1);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border: none;
+  }
+
+  /* МОДАЛЬНОЕ ОКНО */
+  #contacs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 80%;
+    background-image: url("../images/back_con2.jpg");
+    overflow: hidden;
+    font-family: 'Commissioner', sans-serif;
+  }
+  #contacs p{
+    margin-top: 3%;
+    padding-left: 13%;
+    font-size: 5vw;
+    color: rgba(254,228,195,1);
+  }
+  #contacs input{
+    margin: 2%;
+    width: 90%;
+    height: 50%;
+  }
+  #contacs form{
+    height: 25%;
+    padding-left: 10%;
+  }
+  form .com{
+    height: 100%!important;
+  }
+  #contacs input,textarea{
+    margin: 2%;
+    width: 90%;
+    height: 60%;
+  }
+  .send{
+    font-size: 4vw;
+  }
+  /* МОДАЛЬНОЕ ОКНО */
+
+  .arrow-top-2 {
+    right: 4%;
+    scale: 2;
+  }
+  .line{
+    margin-top: 1vh;
+    width: 100%;
+    height: 7vh;
+  }
+  #f_logo{
+    display: inline;
+    float: left;
+    width: 18vw;
+    height: 60%;
+    margin-left: 5vw;
+    padding: 1vw;
+    margin-left: 3vw;
+  }
+  li p{
+    display: inline;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(51,59,70,1);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border: none;
+  }
+  header ul{
+    width: 70vw;
+    height: 100%;
+    margin-top: 0;
+  }
+  header h1{
+    font-size: 2.5vw;
+  }
+  header li{
+    width: 23vw;
+    height: 90%;
+  }
+  header button{
+    font-size:2.8vw;
+  }
+  header img{
+    height: 75%;
+  }
+  footer{
+    display: none;
+  }
+
+  /* МОБИЛЬНОЕ МЕНЮ */
+  #mobile_menu_btn{
+    display: block;
+    visibility: visible;
+    position: fixed;
+    top: 2vw;
+    right: 3vw;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #fee4c3;
+    background-image: url("../images/7.png");
+    background-size: 100%;
+    background-position-x: -0.02%;
+    background-position-y: 0.40vh;
+    background-repeat: no-repeat;
+    z-index:10;
+  }
+  #mobile_menu{
+    display: none;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-image: url("../images/back_menu6.jpg");
+    /* background-color: #333b46; */
+    font-family: 'Commissioner', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    background-size:cover;
+  }
+  #mobile_menu .fancybox-close-small{
+    padding: 0%;
+    top: 3vw;
+    right: 3vw;
+    width: 10vw;
+    height: 10vw;
+    cursor: pointer;
+    z-index: 401;
+  }
+  #mobile_menu ul{
+    width: 100%;
+  }
+  #mobile_menu a{
+    display: flex;
+    text-decoration: none;
+    font-size: 7vw;
+    margin-top: 15%;
+    margin-left: 5%;
+    position: relative;
+    overflow-x: hidden;
+    height: 7vh;
+    background: linear-gradient(45deg, #e4e4b2 22%, #ffffff 55%, #ced6a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:900;
+  }
+  .nav_menu img{
+    display: block;
+    margin-right: 10%;
+    width: 15%;
+    height: 60%;
+  }
+  #mobile_menu li{
+    width: 100%;
+  }
+  .nav_link{
+    display: block;
+    visibility: visible;
+    border-bottom: 2px solid #fee4c3;
+  }
+  .nav_link h1{
+    margin-left: 3vw;
+    font-size: 9vw;
+    margin-bottom: 5vh;
+    /* background: linear-gradient(45deg, #e9e9b4 22%, #f3eeae 55%, #d6d1a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color:#ffffff;
+    font-weight: 700;
+   }
+  .nav_link p{
+    font-size: 5vw;
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+    /* color: #e0ddd9; */
+    /* color: #000000; */
+    /* background: linear-gradient(45deg, #f0f0d9 22%, #ffffff 55%, #f1f5d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color:#ffffff;
+    font-weight: 500;
+  }
+  .nav_link .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3s infinite linear;
+  }
+
+  .nav_footer .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3s infinite linear;
+  }
+  .nav_menu .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(245, 189, 163, 0.4));
+    animation: flareAnimation 3s infinite linear;
+  }
+  .nav_footer{
+    border-top: 2px solid #fee4c3;
+    display: inline;
+    visibility: visible;
+    width: 326px;
+    position: absolute;
+    bottom:2%;
+  }
+  .nav_footer img{
+    margin-top: 6%;
+    width: 40vw;
+  }
+  .nav_menu{
+    display: block;
+    visibility: visible;
+    margin-top: 25%;
+  }
+  #main h1{
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    color: rgba(255,255,255,1);
+    font-family: 'Commissioner', sans-serif;
+  }
+
+  #main p{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    line-height: 5vw;
+    font-size: 4vw;
+    color: rgba(254,228,195,1);
+    text-align: center;
+  }
+  /* Листающаяся галлерея фотографий */
+
+  .testimonials{
+    height: 40vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+  }
+  .scroller{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    height: 100%;
+  }
+  .item{
+    scroll-snap-align: center;
+    padding: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .item img{
+    width: 56vw;
+    left:5%;
+    height: 100%;
+    border: solid 4px #ffffff;
+    z-index: 2;
+    border: 1px solid black;
+  }
+  .testimonials .btn{
+    position: absolute;
+    top: 35%;
+    height: 8%;
+    width: 8%;
+    border-radius: 15px;
+    background-color: rgba(95, 106, 117, 0.3);
+    z-index: 1;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .testimonials .btn:hover{
+    background-color: rgba(95, 106, 117, 0.5);
+    cursor: pointer;
+  }
+  .testimonials .btn.next{
+    right: 7px;
+  }
+  .testimonials .btn.prev{
+    left: 7px;
+  }
+  /* Листающаяся галлерея фотографий */
+}
+
+@media screen and (width: 414px) and (height: 736px) { /*iPhone 6/7/8 Plus*/
+  #logo{
+    width: 30%;
+    height: 60%;
+    display: inline;
+    padding-left: 2vw;
+    padding-top: 3%;
+  }
+  #mobile_menu_btn{
+    top: 3vw;
+    right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 30%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 393px) and (min-height: 640px) and (max-height: 851px) { /*Samsung Galaxy SB+*/
+  #logo{
+    width: 33%;
+    padding-top: 3.5%;
+  }
+  #mobile_menu_btn{
+    top: 3vw;  
+  }
+  .nav_menu{
+    margin-top: 45%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) and (min-height: 812px) and (max-height: 915px) { /*Samsung Galaxy S20 Ultra, */
+  #logo{
+    width: 37%;
+    height: 55%;
+    padding-left: 1vw;
+    padding-top: 4%;
+  }
+  #mobile_menu_btn{
+    width: 5vh;
+    height: 5vh;
+    top: 3.5vw;
+  }
+  .nav_menu{
+    margin-top: 50%;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 375px) and (min-height: 568px) and (max-height: 670px){ /*Galaxy Fold*/
+  #logo{
+    width: 32%;
+    height: 55%;
+  }
+  #mobile_menu_btn{
+    width: 6vh;
+    height: 6vh;
+    top: 2vw;
+  }
+  .nav_menu{
+    margin-top: 32%;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/

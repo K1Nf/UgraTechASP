@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+      <link href="css/main.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200;400&display=swap" rel="stylesheet">
+
+      <link rel="icon" href="../сайт/images/favicon_2.ico" type="image/x-icon">
+      <title>ЮграТех</title>
+   </head>
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+   <body>
+      <div class="wrapper">
+      <svg visibility="hidden" onclick="move('header')"  id = "menu" class="arrow-top-2" viewBox="0 0 9 14">
+         <path id = "up"  class="svg-arrow" d="M6.660,8.922 L6.660,8.922 L2.350,13.408 L0.503,11.486 L4.813,7.000 L0.503,2.515 L2.350,0.592 L8.507,7.000 L6.660,8.922 Z" />
+      </svg>
+
+      <header id="header">
+         <img src="images/v13_267.png" alt="" id="logo">
+         <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
+         <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button >
+            <div id="mobile_menu">
+               <ul id="menu">
+                  <div class = "nav_link">
+                     <!-- <h1> Мы находимся:  <span class="flare"> </span></h1> -->
+                     <p> Россия, г. Ханты-Мансийск,<br> ул. Чехова, 16<span class="flare"> </span></p>
+                     <p> Dolingersy@ya.ru <span class="flare"> </span></p>
+                      <!--<img src="images/v13_258.png" alt="" id="line_img_3">-->
+                  </div>
+                  <div class = "nav_menu">
+                     <!-- href="#" -->
+                     <!--<img src="images/v13_259.png" alt="" id="line_img_9">-->
+                     <!-- <img src="images/v13_259.png" alt="" id="line_img_5"> -->
+                     <a id="lab"  class = "menu_btn" onclick="move('labs')">
+                        <img src="images/icons8-микроскоп-30.png" alt="">
+                        <li>
+                           Лаборатории <span class="flare">
+                        </li>
+                     </a>
+                     <!--<img src="images/v13_259.png" alt="" id="line_img_6">-->
+                     <a id="proj"  class = "menu_btn" onclick="move('projects')">
+                        <img src="images/icons8-группа-проектов-30.png"alt="">
+                        <li>
+                           Проекты <span class="flare">
+                        </li>
+                     </a>
+                     <!--<img src="images/v13_258.png" alt="" id="line_img_7">-->
+                     <a id="link" onclick="open_contacs()" class = "menu_btn" >
+                        <img src="images/icons8-чат-30.png"alt="">
+                        <li>
+                           Связь с нами <span class="flare">
+                        </li>
+                     </a>
+                     <!--<img src="images/v13_259.png" alt="" id="line_img_8">-->
+                  </div>
+                  <div class = "nav_footer">
+                      <!--<img src="images/v13_258.png" alt="" id="line_img_4">-->
+                     <border> <span class="flare"></span> </border>
+                     <img src="images/10.png" alt="">
+                  </div>
+               </ul>
+            </div>
+
+         <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
+         <script>
+            function change_mobile_menu(){
+                  $.fancybox.open({
+					   padding: [0, 0, 0, 0],
+					   src: '#mobile_menu',
+					   type: 'inline',
+					   closeClickOutside: false,
+                  opts: {
+                  	afterClose: function() {
+                        //обработчик закрытия окна
+                  	}
+                  }
+				      });
+               }
+            </script>
+         <!---------------------------------------------------------------------->
+      </header>
+			<div id="main" >
+            <img src="images/v13_248.png" id='main_img'alt="">
+            <h1 class="main">Инжиниринговый центр ЮГРАТЕХ</h1>
+            <h2 class="main">Подготовим для вас комплексное решение в области цифровых технологий для топливно-энергетического комплекса.</h2>
+            <p class="main">Задачи центра:</p>
+            <ul id="main_ul">
+               <li class="main_li">-создание продуктов и масштабирование технологий в области цифровой энергетики;</li>
+               <li class="main_li">-создание стратегических коммуникаций для развития Университета;</li>
+               <li class="main_li">-внедрение системной инженерии в процесс образования.</li>
+            </ul>
+				<img src="images/v13_255.png" alt="" id='main_img_circle'>
+			</div>
+         <div id="labs">
+            <div class="line">
+               <img src="images/v13_258.png" alt="" id="line_img_1">
+               <h1 class="line_1">Лаборатории ЮГРАТЕХ</h1>
+            </div>
+            <div id="labs_block">
+               <div class="lab_cart"  onclick = "window.location.href = 'lab_1_dol.cshtml'">
+                  <img src="images/v13_59.png" alt="" class="lab_img">
+                  <h1  class="lab_cart_t">Лаборатория "Автоматика <br>и вторичные цепи" </h1>
+                  <p  class="lab_cart_t">Лаборатория оснащена современным оборудованием, позволяющим имитировать работу автоматики и вторичных цепей электрических подстанций напряжением 6-220 кВ.</p>
+               </div>
+               <div class="lab_cart"  onclick = "window.location.href = 'lab_3_shi.cshtml'">
+                  <img src="images/l2.jpg" alt="" class="lab_img">
+                  <h1  class="lab_cart_t">Лаборатория "Бизнес решений" </h1>
+                  <p  class="lab_cart_t">Дизайн-проектов, конструкторской документации, создания демонстрационных макетов, удобных и профессиональных веб-сайтов, мобильных приложений и лендинга страницы.</p>
+               </div>
+               <div class="lab_cart" onclick = "window.location.href = 'lab_2_saf.cshtml'">
+                  <img src="images/l3.jpg" alt="" class="lab_img">
+                  <h1  class="lab_cart_t">Лаборатория «Передовых цифровых технологий» </h1>
+                  <p  class="lab_cart_t">Направлена на разработку приложений с использованием технологий виртуальной и дополненной реальностей.</p>
+               </div>
+            </div>
+			</div>
+         <div id="projects">
+			   <div class="line">
+               <img src="images/v13_259.png" alt="" id="line_img_2">
+               <h1 class="line_2">Проекты ЮГРАТЕХ</h1>
+            </div>
+            <div id="carousel" class="carousel">
+               <div>
+                  <button class="arrow prev">&#8592</button>
+               </div>
+               <div id="gallery" class="gallery">
+                  <ul>
+                     <li style="float: left; margin-left: 0 !important;" onclick="window.location.href = 'project_1.cshtml';">
+                        <div class="project_cart" >
+                           <a > <!-- Проект 1-->
+                              <img src="images\\lab_1\\pr_1\\IMG_9635.jpg" alt="" class="project_img">
+                           </a>
+
+                           <!-- Модальные окна фенсибокса-->
+                           <!-- Проект 1-->
+                           <div class="projects-fancy" id="hidden">
+                              <div class="fancy-text" id="fancy-text">
+                                 <h2 class="gal_h2" id="fancy_h2">Устройство определения поврежденной линии в сетях с изолированной и компенсированной нейтралью</h2>
+                                 <p class="gal_p" id="fancy_p">Команда инжинирингового центра ведет разработку программно-аппаратного комплекса для определения поврежденной линии в сетях с изолированной или с компенсированной нейтралью без необходимости отключения. Комплекс работает на основе дискретного вейвлет-преобразования. В настоящее время проводятся стендовые испытания в условиях
+приближенных к реальным.<br>Программно-аппаратный комплекс определения поврежденной линии в сетях с изолированной или с компенсированной нейтралью разрабатывается для работы на современных цифровых подстанциях в соответствии с МЭК 61850.  Принимает и анализирует SV-потоки, отслеживает и формирует GOOSE-сообщения
+</p>
+                              </div>
+                              <div class="fancy-pic" id = "fancy-pic">
+                                 <img class="pic-fancy" id="pic-fancy" src="images\\lab_1\\pr_1\\aui2wn33dj2gi8r1pj1fe63doop84krs.jpg">
+                                 <img class="pic-fancy" id="pic-fancy" src="images\\lab_1\\pr_1\\camphoto_959030623 3.JPG">
+                                 <img class="pic-fancy" id="pic-fancy" src="images\\lab_1\\pr_1\\camphoto_959030623 2.JPG">
+                              </div>
+                           </div>
+
+                           <!-- Проект 2-->
+                           <div class="projects-fancy" id="hidden2">
+                              <div class="fancy-text" id="fancy-text">
+                                 <h2 class="gal_h2" id="fancy_h2">Система автоматизированного позиционирования солнечных панелей по направлению к Солнцу в условиях Арктики и районов Крайнего Севера</h2>
+                                 <p class="gal_p" id="fancy_p">В Инжиниринговом центра ведётся разработка системы автоматизированного энергоэффективного позиционирования солнечных панелей по направлению
+                                    к солнцу в условиях Арктики и районов Крайнего Севера. Существующие системы на рынке обладают рядом недостатков такие как неспособность работы в условиях экстремально
+                                    низких температур и большого количества осадков в виде снега.
+                                    <br>Разработка предполагает комплексный подход к созданию нового технического решения, благодаря чему удается достичь максимальных экономических и экологических
+                                    показателей, при этом получить новую конструкцию стойкую к низким температурам. Для сохранения эффективности работы в условиях обильных осадков в виде снега используется
+                                    интеллектуальная система очистки панелей.
+                                    <br>Применение системы автоматического позиционирования позволит:
+<br>-  Повысить эффективность использования фотоэлектрических панелей в северных условиях до 60%, уменьшить установленную мощность солнечных электростанций;
+<br>-  Уменьшить влияние твердых осадков на эффективность работы солнечных электростанций;
+<br>-  Обеспечит самодиагностику состояния фотоэлектрических панелей для снижения времени простоя при неисправности.
+</p>
+                              </div>
+                              <div class="fancy-pic" id = "fancy-pic">
+                                 <img class="pic-fancy" id="pic-fancy" alt="789" src="images\\lab_1\\pr_2\\IMG_20210914_172305_301.jpg">
+                                 <img class="pic-fancy" id="pic-fancy" alt="123" src="images\\lab_1\\pr_2\\IMG_20210914_171931_555.jpg">
+                                 <img class="pic-fancy" id="pic-fancy" alt="456" src="images\\lab_1\\pr_2\\4d931878-b59c-433f-b7d6-0f1981137491.PNG">
+                              </div>
+                           </div>
+
+                           <!-- Проект 3-->
+                           <div class="projects-fancy" id="hidden3">
+                              <div class="fancy-text" id="fancy-text">
+                                 <h2 class="gal_h2" id="fancy_h2">Виртуальный 360 тур по Югорскому университету</h2>
+                                 <p class="gal_p" id="fancy_p">Выполнен в рамках внутреннего гранта ЮГУ. Представляет собой набор панорамных снимков с возможностью переходов между ними.
+                                 Данный проект был создан для повышение уровня осведомлённости будущих абитуриентов и гостей с инфраструктурой университета. Создан на основе панорамных 360 снимков.
+                                 Полученное изображение при помощи Java скрипта располагается на холсте, а изображения обрабатываются при помощи нейросети, уменьшается их объём с минимальной потерей качества.</p>
+                              </div>
+                              <div class="fancy-pic" id = "fancy-pic">
+                                 <img class="pic-fancy" id="pic-fancy" alt="789" src="images\\lab_2\\pr_360\\Снимок2.JPG">
+                                 <img class="pic-fancy" id="pic-fancy" alt="123" src="images\\lab_2\\pr_360\\Снимок3.JPG">
+                                 <img class="pic-fancy" id="pic-fancy" alt="456" src="images\\lab_2\\pr_360\\Снимок4.JPG">
+                              </div>
+                           </div>
+
+                           <!-- Проект 4-->
+                           <div class="projects-fancy" id="hidden4">
+                              <div class="fancy-text" id="fancy-text">
+                                 <h2 class="gal_h2" id="fancy_h2">Экскурсия по виртуальному карбоновому полигону «Мухрино»</h2>
+                                 <p class="gal_p" id="fancy_p">Использовалось трёхмерное моделирование для изображения территории свыше 1га, включающую в себя природу, инфраструктуру, устройства сбора данных,
+                                 мостки для передвижения. Выполняет информационную рекламную функцию с последующим представлением в качестве виртуального полигона для проведения ознакомительных практик студентов направления экология.
+                                 Разработан при помощи игрового движка «Unity 3d».</p>
+                              </div>
+                              <div class="fancy-pic" id = "fancy-pic">
+                                 <img class="pic-fancy" id="pic-fancy" alt="789" src="images\\lab_2\\pr_Мухрино\\photo1.jpeg">
+                                 <img class="pic-fancy" id="pic-fancy" alt="123" src="images\\lab_2\\pr_Мухрино\\photo2.jpeg">
+                                 <img class="pic-fancy" id="pic-fancy" alt="456" src="images\\lab_2\\pr_Мухрино\\photo4.jpeg">
+                              </div>
+                           </div>
+
+                           <!-- Проект 5-->
+                           <div class="projects-fancy" id="hidden5">
+                              <div class="fancy-text" id="fancy-text">
+                                 <h2 class="gal_h2" id="fancy_h2">Сайт Югорского Государственного Университета</h2>
+                                 <p class="gal_p" id="fancy_p">Проект реализован с использованием современных технологий веб-разработки, обеспечивающих высокую функциональность и отзывчивость сайта. Дизайн сайта лаконичный и простой, что позволяет быстро находить необходимую информацию и легко ориентироваться на сайте. Проект создан для удобства пользователей и обеспечения быстрого и качественного доступа к информации о Югорском Государственном Университете.</p>
+                              </div>
+                              <div class="fancy-pic" id = "fancy-pic">
+                                 <img class="pic-fancy" id="pic-fancy" alt="789" src="images\\lab_3\\ugrasusite.jpg">
+                                 <img class="pic-fancy" id="pic-fancy" alt="123" src="images\\lab_3\\ugrasunews.jpg">
+                                 <!-- <img class="pic-fancy" id="pic-fancy" alt="456" src="images\\lab_3\\ugrasusite.JPG">-->
+                              </div>
+                           </div>
+                           <!-- Модальные окна фенсибокса-->
+
+
+                           <p id="project_p" class="project_cart_t">Устройство определения поврежденной линии в сетях с изолированной и компенсированной нейтралью</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="project_cart" >
+                           <a data-fancybox="gallery" href="#hidden2" ><!-- Проект 2-->
+                              <img src="images\\lab_1\\pr_2\\IMG_20210911_203950_439.jpg" alt="" class="project_img">
+                           </a>
+
+                           <p id="project_p" class="project_cart_t">Система автоматизированного позиционирования солнечных панелей по направлению к Солнцу в условиях Арктики и районов Крайнего Севера</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="project_cart" >
+                           <a data-fancybox="gallery" href="#hidden3" ><!-- Проект 3-->
+                              <img src="images\\lab_2\\pr_360\\Слой 2 копия.JPG" alt="" class="project_img">
+                           </a>
+                           <p id="project_p" class="project_cart_t" style="top:40% !important">Виртуальный 360 тур по Югорскому университету</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="project_cart" >
+                           <a data-fancybox="gallery" href="#hidden4" ><!-- Проект 4-->
+                              <img src="images\\lab_2\\pr_Мухрино\\photo1.jpg" alt="" class="project_img">
+                           </a>
+                           <p id="project_p" class="project_cart_t">Экскурсия по виртуальному карбоновому полигону «Мухрино»</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="project_cart" >
+                           <a data-fancybox="gallery" href="#hidden5" ><!-- Проект 5-->
+                              <img src="images\\lab_3\\ugrasusite.jpg" alt="" class="project_img">
+                           </a>
+                           <p id="project_p" class="project_cart_t">Сайт Югорского Государственного Университета</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div>
+                  <button class="arrow next">&#8594</button>
+               </div>
+           </div>
+         </div>
+         <footer>
+            <img src="images/v13_268.png" alt="" id="f_logo">
+            <ul id="footer_ul">
+               <li id="footer_li">
+                  <p id=""class="footer_btn">Адрес: г. Ханты-Мансийск,<br> ул. Чехова 16</p>
+               </li>
+               <li>
+                  <p id="" class="footer_btn">Почта: Dolingersy@ya.ru</p>
+               </li>
+               <li >
+                  <p id="" id="footer_btn">Телефон: +7(904)3278040</p>
+               </li>
+            </ul>
+         </footer>
+		</div>
+
+      <div id="project" style="display: none;">
+         <p>Название</p>
+         <img src="" alt="">
+         <p></p>
+      </div>
+
+
+
+ <!-- модальное окно -->
+   <div id="contacs" style="display: none;">
+
+         <!-- <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div> -->
+   <p>Связаться с нами</p>
+   <form name="Form">
+      <input type="email" placeholder="Ваша почта" name="email" required>
+      <input type="tel" placeholder="Ваш номер" name="phone" required>
+      <textarea
+         type="text" class = "com" placeholder="Цель обращения" name="comment" required>
+      </textarea>
+      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить">
+   </form>
+
+   </body>
+   <script >
+      // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+		// 		// код для мобильных устройств
+		// 	} else {
+		// 		// код для обычных устройств
+		// 	}
+
+      function dbClick() {}
+      document.body.addEventListener('dblclick', dbClick());
+
+
+      // СКРОЛЛ
+      function move(st){
+         var s = document.getElementById(st);
+         $.fancybox.close(true)
+         s.scrollIntoView({
+               block: 'start', // к ближайшей границе экрана
+               behavior: 'smooth', // и плавно
+            });
+         console.log(st)
+         console.log(s)
+         if(st!='header'){
+            document.querySelector('#up').style.visibility="visible";
+         }
+         else{
+            document.querySelector('#up').style.visibility="hidden";
+         }
+      }
+
+
+      function open_contacs(){
+         console.log(1)
+         $.fancybox.open({
+					padding: [0, 0, 0, 0],
+					src: '#contacs',
+					type: 'inline',
+					closeClickOutside: false,
+					// opts: {
+					// 	afterClose: function() {
+					// 	}
+					// }
+				});
+      }
+
+
+      async function send_deal(target) {
+				let form = target.parentElement;
+				let comment = form.comment.value;
+				let email = form.email.value;
+				let phone = form.phone.value;
+            await $.ajax({
+					url: 'save_deal.php',
+					type: 'POST',
+					data: {
+						'email': email,
+                  'phone': phone,
+                  'comment': comment,
+					},
+					success: function(data) {
+						console.log('OK');
+					},
+					error: function() {
+						console.log('ERROR');
+					}
+				})
+            $.fancybox.close(true)
+			}
+
+
+      function tolab(lab){
+         console.log(lab)
+         if(lab=='lab1'){
+            window.location.href = 'lab_1_dol.html';
+         }
+         else if(lab=='lab2'){
+            window.location.href = 'lab_2_saf.html';
+         }
+         else{
+            window.location.href = 'lab_3_shi.html';
+         }
+      }
+
+      function open_project(pr){
+         $.fancybox.open({
+					padding: [0, 0, 0, 0],
+					src: '#project',
+					type: 'inline',
+					closeClickOutside: false,
+					// opts: {
+					// 	afterClose: function() {
+					// 	}
+					// }
+				});
+      }
+
+      //Прокрутка проектов //
+      let i = 1;
+      for(let li of carousel.querySelectorAll('li'))
+      {
+         li.style.position = 'relative';
+         li.insertAdjacentHTML('beforeend', `<span style="position:absolute;left:0;top:0">${i}</span>`);
+         i++;
+      }
+      const windowOuterWidth = window.outerWidth
+
+      if(windowOuterWidth > 480){// в зависимости от ширины окна(px) определить насколько(vw) будет перематываться лента проектов
+         let width = 54;         // ширина картинки
+         let count = 4;          // видимое количество изображений
+         let list = carousel.querySelector('ul');
+         let listElems = carousel.querySelectorAll('li');
+         let position = 0;       // положение ленты прокрутки
+         let bool = true;        // Изначально list.style.marginLeft = 0px, Изначально bool = TRUE
+
+         carousel.querySelector('.prev').onclick = function(){
+            if(bool){            // перемотка элементов в самый конец
+               position -= width * count;
+               position = Math.max(position, -width * 1);// последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+               list.style.marginLeft = position + 'vw';
+               bool = false;
+            }
+            else{                // перемотка элементов в начало
+               list.style.marginLeft = 0;
+               bool = true;
+            }
+         };
+
+         carousel.querySelector('.next').onclick = function(){
+            if(bool){            // перемотка элементов в самый конец
+               position -= width * count;// сдвиг вправо
+               position = Math.max(position, -width * 1);// последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+               list.style.marginLeft = position + 'vw';
+               bool = false;
+            }
+            else{                 // перемотка элементов в начало
+               list.style.marginLeft = 0;
+               bool = true;
+            }
+         };
+      }
+      else{
+         let width = 87;         // ширина картинки
+         let count = 1;          // видимое количество изображений
+         let list = carousel.querySelector('ul');
+         let listElems = carousel.querySelectorAll('li');
+         let position = 0;       // положение ленты прокрутки
+         let mobile_bool = true; // Изначально list.style.marginLeft = 0px, Изначально bool = TRUE
+
+         carousel.querySelector('.prev').onclick = function() {
+
+            if(list.style.marginLeft != 0 + 'vw'){    // листаем влево не из первого элемента
+               position += width * count;             // сдвиг влево
+                                                      // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+               position = Math.min(position, 0)
+               list.style.marginLeft = position + 'vw';
+            }
+            else{
+               //console.log('BEFORE: ' + list.style.marginLeft); // Проверка
+               list.style.marginLeft = -261 + 'vw';   // листаем из первого элемента в крайний правый (в конец)
+               //console.log('AFTER: ' + list.style.marginLeft);  // Проверка
+            }
+         };
+
+         carousel.querySelector('.next').onclick = function() {
+
+            if(list.style.marginLeft == -261 + 'vw'){
+               //console.log('BEFORE: ' + list.style.marginLeft); // Проверка
+               list.style.marginLeft = 0 + 'vw';
+               //console.log('AFTER: ' + list.style.marginLeft);  // Проверка
+            }
+            else{
+               position -= width * count;// сдвиг вправо
+               position = Math.max(position, -width * (listElems.length - count));// последнее передвижение вправо листает до конца списка
+               list.style.marginLeft = position + 'vw';
+            }
+         };
+      }
+
+      // // ФУНКЦИЯ СКРОЛЛА
+      // function scrollTo(element) {
+      //    window.scroll({
+      //       left: 0,
+      //       top: element.offsetTop,
+      //       behavior: 'smooth'
+      //    })
+      // }
+      // // СКРОЛЛ НА ЛАБОРАТОРИИ
+      // var buttonlab = document.querySelector('#lab');
+      // var lab = document.querySelector('#labs');
+      // buttonlab.addEventListener('click', () => {
+      //    $.fancybox.close(true)
+      //    scrollTo(lab);
+      //    buttonup.style.visibility="visible";
+      // })
+      // // СКРОЛЛ НА ПРОЕКТЫ
+      // var buttonproj = document.querySelector('#proj');
+      // var proj = document.querySelector('#projects');
+      // buttonproj.addEventListener('click', () => {
+      //    $.fancybox.close(true)
+      //    scrollTo(proj);
+      //    buttonup.style.visibility="visible";
+      // })
+      // // СКРОЛЛ НАВЕРХ
+      // var buttonup = document.querySelector('#up');
+      // var up = document.querySelector('.wrapper');
+
+      function scr() {
+      if (window.pageYOffset > 20) {
+         document.querySelector('#up').style.visibility="visible";
+         document.querySelector('#up').addEventListener('click', () => {
+               scrollTo(up);
+            })
+      } else {document.querySelector('#up').style.visibility="hidden"}
+      }
+      //
+      window.onscroll = scr
+
+   </script>
+</html>
